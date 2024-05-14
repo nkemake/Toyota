@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toyota Cars</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 20px;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .car {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .car img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Toyota Cars</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Cars</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="car">
+            <h2>Toyota Camry</h2>
+            <img src="toyota_camry.jpg" alt="Toyota Camry">
+            <p>The Toyota Camry is a reliable and comfortable sedan with great fuel efficiency.</p>
+            <p>Price: $25,000</p>
+            <button>Contact Dealer</button>
+        </div>
+        <div class="car">
+            <h2>Toyota RAV4</h2>
+            <img src="toyota_rav4.jpg" alt="Toyota RAV4">
+            <p>The Toyota RAV4 is a versatile and practical SUV, perfect for families and adventure-seekers.</p>
+            <p>Price: $30,000</p>
+            <button>Contact Dealer</button>
+        </div>
+        <div class="car">
+            <h2>Toyota Prius</h2>
+            <img src="toyota_prius.jpg" alt="Toyota Prius">
+            <p>The Toyota Prius is a hybrid car known for its exceptional fuel efficiency and eco-friendly features.</p>
+            <p>Price: $28,000</p>
+            <button>Contact Dealer</button>
+        </div>
+        <div class="car">
+            <h2>Toyota Corolla</h2>
+            <img src="toyota_corolla.jpg" alt="Toyota Corolla">
+            <p>The Toyota Corolla is a compact car that offers reliability, fuel efficiency, and advanced safety features.</p>
+            <p>Price: $22,000</p>
+            <button>Contact Dealer</button>
+        </div>
+        <div class="car">
+            <h2>Toyota Highlander</h2>
+            <img src="toyota_highlander.jpg" alt="Toyota Highlander">
+            <p>The Toyota Highlander is a midsize SUV with spacious seating, advanced safety features, and impressive performance.</p>
+            <p>Price: $35,000</p>
+            <button>Contact Dealer</button>
+        </div>
+    </div>
+</body>
+</html>
